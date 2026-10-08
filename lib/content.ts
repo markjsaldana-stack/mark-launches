@@ -7,7 +7,7 @@ export const navLinks = [
 
 export const heroStats = [
   { value: "10+ yrs", label: "Product marketing, growth & CMO roles" },
-  { value: "1,000s", label: "Customers onboarded by my demos" },
+  { value: "2x", label: "New user signups from feature launches" },
   { value: "+50%", label: "Marketing site conversion rate lift" },
 ] as const;
 
@@ -19,13 +19,13 @@ export const impactStats = [
       "Owned and optimized Gymdesk's full marketing website — competitor, customer, case study, and feature pages.",
   },
   {
-    value: "40+",
+    value: "300+",
     label: "Deals in 90 days",
     description:
       "Launched an AI sales-intelligence tool that auto-generated competitor summaries and tailored follow-ups.",
   },
   {
-    value: "2x",
+    value: "+200%",
     label: "Customer LTV",
     description:
       "Retention and engagement incentives at ZenSports: affiliate programs, deposit bonuses, and betting contests.",
