@@ -1,4 +1,5 @@
 export const navLinks = [
+  { label: "Flagship", href: "#flagship" },
   { label: "Impact", href: "#impact" },
   { label: "Work", href: "#work" },
   { label: "What I do", href: "#what-i-do" },
@@ -37,6 +38,23 @@ export const impactStats = [
       "SEO-driven long-tail content strategy that delivered a million search visitors to AirDNA.co.",
   },
 ] as const;
+
+export const flagshipProject = {
+  title: "Competitive Radar for Hightouch",
+  href: "https://hightouch-radar.vercel.app/",
+  summary:
+    "How I'd run competitive intelligence for Hightouch's sales team, built as a working site instead of a slide deck.",
+  description:
+    "An always-on system that turns competitor changes into sales-ready intel every week. Eight pages cover the whole program: what gets tracked, how each change is scored and routed, the Monday digest reps get, a battlecard that updates itself, a comparison matrix, and my first 90 days. Behind it is a working script that spots changes on competitor pages and drafts signals with the Claude API, with a person reviewing every draft.",
+  highlights: [
+    "Weekly sales digest with the exact line to say",
+    "Before-and-after change detection on competitor pages",
+    "Battlecard that shows which signals updated it",
+    "AI drafting with human review, plus mystery-shop sales calls",
+  ],
+  tags: ["Competitive intelligence", "Sales enablement", "AI tools"],
+  note: "Unofficial work sample with illustrative data.",
+} as const;
 
 export const workCategories = [
   "All",
