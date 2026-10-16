@@ -44,9 +44,9 @@ export function Hero() {
             Hi, I&apos;m {personName} 👋
           </h1>
           <p className="max-w-xl text-xl font-light text-white/90 md:text-2xl">
-            I help companies deliver value to prospects and customers as
-            quickly as possible — through sharper messaging, better onboarding,
-            and content that earns trust.
+            I help prospects and customers see a product&apos;s value fast.
+            That means clear messaging, onboarding that works, and content
+            people trust.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <a

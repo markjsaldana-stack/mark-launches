@@ -1,7 +1,7 @@
 export const siteName = "Launch with Mark";
 
 export const siteDescription =
-  "A curated portfolio hub showcasing high-impact product marketing campaigns and strategic results.";
+  "Mark Saldaña's product marketing portfolio: launches, onboarding, competitive intel, and the results behind them.";
 
 export const personName = "Mark Saldaña";
 

@@ -17,7 +17,7 @@ export const impactStats = [
     value: "+50%",
     label: "Site conversion rate",
     description:
-      "Owned and optimized Gymdesk's full marketing website — competitor, customer, case study, and feature pages.",
+      "Ran Gymdesk's whole marketing site, including the competitor, customer, case study, and feature pages.",
   },
   {
     value: "300+",
@@ -35,25 +35,28 @@ export const impactStats = [
     value: "1M",
     label: "Organic visitors",
     description:
-      "SEO-driven long-tail content strategy that delivered a million search visitors to AirDNA.co.",
+      "Long-tail SEO content that brought a million search visitors to AirDNA.co.",
   },
 ] as const;
 
 export const flagshipProject = {
-  title: "Competitive Radar for Hightouch",
+  title: "Deal Radar for Hightouch",
   href: "https://hightouch-radar.vercel.app/",
+  previewPath: "hightouch-radar.vercel.app/assistant",
   summary:
-    "How I'd run competitive intelligence for Hightouch's sales team, built as a working site instead of a slide deck.",
-  description:
-    "An always-on system that turns competitor changes into sales-ready intel every week. Eight pages cover the whole program: what gets tracked, how each change is scored and routed, the Monday digest reps get, a battlecard that updates itself, a comparison matrix, and my first 90 days. Behind it is a working script that spots changes on competitor pages and drafts signals with the Claude API, with a person reviewing every draft.",
-  highlights: [
-    "Weekly sales digest with the exact line to say",
-    "Before-and-after change detection on competitor pages",
-    "Battlecard that shows which signals updated it",
-    "AI drafting with human review, plus mystery-shop sales calls",
+    "A sales assistant I'd build for Hightouch's SDRs and AEs, proposed as a working site.",
+  description: [
+    "Reps ask it what to say next, from the first cold email to the renewal call. It answers from current competitive intel, battlecards, and a library of customer references and case studies, and it cites the source for every line.",
+    "On the deal assistant page, an AE uploads a call transcript and gets the buyer's concerns in their own words, the proof for each one, a matching reference customer, and a follow-up email to send. Weekly competitor tracking feeds it, a script drafts signals with the Claude API, and a person checks every draft. The site ends with how Hightouch could build it internally in 90 days.",
   ],
-  tags: ["Competitive intelligence", "Sales enablement", "AI tools"],
-  note: "Unofficial work sample with illustrative data.",
+  highlights: [
+    "Turns a call transcript into buyer concerns, proof, and a follow-up email",
+    "Matches reference customers on region, use case, and competitor",
+    "Weekly competitor digest with the exact line to say",
+    "Every answer cites its source, and a person checks every AI draft",
+  ],
+  tags: ["Sales enablement", "Competitive intelligence", "AI tools"],
+  note: "Proposal with sample data. Not affiliated with Hightouch.",
 } as const;
 
 export const workCategories = [
@@ -119,7 +122,7 @@ export const projects: Project[] = [
     assetType: "Reviews Page",
     href: "https://gymdesk.com/customers",
     notes:
-      "Page featuring customer quotes, reviews, and videos. Developed design and created all content (including videos).",
+      "Customer quotes, reviews, and videos on one page. I designed it and made all the content, including the videos.",
     category: "Web",
   },
   {
@@ -155,7 +158,7 @@ export const projects: Project[] = [
     assetType: "Website Messaging",
     href: "https://www.teloslabs.co/",
     notes:
-      "Crafted full site messaging and an on-page qualification flow for an AI automation agency to position the brand, sharpen the ICP, and convert visitors into discovery calls.",
+      "Wrote all the site messaging and an on-page qualification flow for an AI automation agency, to position the brand, narrow the ICP, and turn visitors into discovery calls.",
     category: "Web",
   },
   {
@@ -163,7 +166,7 @@ export const projects: Project[] = [
     assetType: "Sales One-Pager",
     href: "/files/telos-one-pager.pdf",
     notes:
-      "Sales enablement one-pager designed to generate leads and book discovery calls for an organizational assessment. Distilled a complex AI consulting offer into a concise, ROI-driven sales asset.",
+      "Sales one-pager built to generate leads and book discovery calls for an organizational assessment. It fits a complex AI consulting offer onto one page about ROI.",
     category: "Content",
   },
   {
@@ -186,7 +189,7 @@ export const services = [
   {
     title: "Product launches",
     description:
-      "Positioning, messaging, announcement content, and the sales & support enablement that makes a launch actually land.",
+      "Positioning, messaging, announcement content, and the sales and support enablement a launch needs to work.",
     icon: "rocket",
   },
   {

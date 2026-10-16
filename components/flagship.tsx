@@ -18,7 +18,11 @@ export function Flagship() {
               </span>
               <h2 className="mt-4 text-3xl font-bold text-gray-900 md:text-4xl">{project.title}</h2>
               <p className="mt-3 text-lg text-gray-700">{project.summary}</p>
-              <p className="mt-4 text-sm leading-relaxed text-gray-600">{project.description}</p>
+              {project.description.map((paragraph) => (
+                <p key={paragraph} className="mt-4 text-sm leading-relaxed text-gray-600">
+                  {paragraph}
+                </p>
+              ))}
 
               <ul className="mt-5 space-y-2">
                 {project.highlights.map((item) => (
@@ -36,7 +40,7 @@ export function Flagship() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 rounded-full bg-gray-900 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-gray-700"
                 >
-                  Explore the Radar
+                  Explore Deal Radar
                   <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
                 </a>
                 <span className="text-xs text-gray-500">{project.note}</span>
@@ -61,16 +65,16 @@ export function Flagship() {
                 <span className="h-2.5 w-2.5 rounded-full bg-gray-300" />
                 <span className="h-2.5 w-2.5 rounded-full bg-gray-300" />
                 <span className="h-2.5 w-2.5 rounded-full bg-gray-300" />
-                <span className="ml-2 truncate text-xs text-gray-400">hightouch-radar.vercel.app/digest</span>
+                <span className="ml-2 truncate text-xs text-gray-400">{project.previewPath}</span>
               </span>
               <Image
                 src={radarPreview}
-                alt="The Competitive Radar weekly digest page, showing the top 3 competitor changes for sales with what changed, why it matters, and what to say."
+                alt="The Deal Radar deal assistant page, showing what a rep gets at each point in the day: start of day, before a call, after the call, follow-up, and late stage."
                 sizes="(min-width: 1024px) 540px, 100vw"
                 className="h-auto w-full transition-transform duration-300 group-hover:scale-[1.02]"
                 placeholder="blur"
               />
-              <span className="sr-only">Open Competitive Radar in a new tab</span>
+              <span className="sr-only">Open Deal Radar in a new tab</span>
             </a>
           </div>
         </article>
