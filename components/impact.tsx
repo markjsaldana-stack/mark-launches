@@ -9,8 +9,8 @@ export function Impact() {
             Impact by the numbers
           </h2>
           <p className="max-w-2xl text-lg text-gray-500">
-            Ten-plus years of product marketing, growth, and CMO work — here&apos;s
-            what it moved.
+            Ten-plus years of product marketing, growth, and CMO work, and what
+            it changed.
           </p>
         </div>
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
